@@ -63,3 +63,8 @@ You can even add event hooks for mouse press, mouse release and mouse drag event
             frame.setVisible(true);
         }
     }
+    
+Where can I get this awesome tool?
+----------------------------------
+
+[Right here!](http://moomoohk.minelord.com/wp-content/uploads/2013/05/FrameDragger.jar)
