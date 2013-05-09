@@ -27,3 +27,39 @@ Examples
             frame.setVisible(true);
         }
     }
+
+You can even add event hooks for mouse press, mouse release and mouse drag events like so:
+
+    public class FrameDraggerTest
+    {
+        public static void main(String[] args)
+        {
+            JFrame frame = new JFrame("Drag me!");
+            frame.setSize(200, 200);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setLocationRelativeTo(null);
+            Runnable onPress = new Runnable()
+            {
+                public void run()
+                {
+                    System.out.println("Press!");
+                }
+            };
+            Runnable onRelease = new Runnable()
+            {
+                public void run()
+                {
+                    System.out.println("Release!");
+                }
+            };
+            Runnable onDrag = new Runnable()
+            {
+                public void run()
+                {
+                    System.out.println("Drag!");
+                }
+            };
+            new FrameDragger().applyTo(frame);
+            frame.setVisible(true);
+        }
+    }
