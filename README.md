@@ -59,7 +59,7 @@ You can even add event hooks for mouse press, mouse release and mouse drag event
                     System.out.println("Drag!");
                 }
             };
-            new FrameDragger().applyTo(frame);
+            new FrameDragger().applyTo(frame, onPress, onRelease, onDrag);
             frame.setVisible(true);
         }
     }
