@@ -68,3 +68,8 @@ Where can I get this awesome tool?
 ----------------------------------
 
 [Right here!](http://moomoohk.minelord.com/wp-content/uploads/2013/05/FrameDragger.jar)
+
+Last question, can I see it in action?
+--------------------------------------
+
+Yes! [Here](http://www.youtube.com/watch?v=squWRnUU0e8) is the FrameDragger video. You can find videos relating to all my other stuff on [my YouTube channel](http://youtube.com/moomoohk).
